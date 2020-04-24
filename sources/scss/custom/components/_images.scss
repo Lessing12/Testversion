@@ -13,6 +13,10 @@ img {
 
 .image-custom-wrap {
   display: none;
+  position: absolute;
+  left: 0px;
+  top: -20px;
+  
 }
 
 @include media-breakpoint-up(xl) {
