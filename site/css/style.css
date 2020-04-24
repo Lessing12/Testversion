@@ -8355,6 +8355,7 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 
 .owl-carousel .owl-stage {
 	position: relative;
+	
 	-ms-touch-action: pan-Y;
 	touch-action: manipulation;
 	-moz-backface-visibility: hidden;
@@ -8371,6 +8372,8 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 }
 
 .owl-carousel .owl-stage-outer {
+	
+
 	position: relative;
 	overflow: hidden;
 	/* fix for flashing background */
@@ -8556,6 +8559,7 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 
 .owl-carousel-services {
 	max-width: 1200px;
+
 	margin-left: auto;
 	margin-right: auto;
 }
