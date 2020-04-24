@@ -4959,6 +4959,7 @@ h4 + .comment {
 .services {
 	position: relative;
 	max-width: 270px;
+	min-height: 350px;
 	padding: 40px 25px 45px;
 	margin-left: auto;
 	margin-right: auto;
