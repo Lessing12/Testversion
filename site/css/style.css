@@ -712,6 +712,7 @@ html [class*='section-'].section-bottom-0 {
 /** @section Backgrounds */
 .context-dark .brand .brand-logo-dark, .bg-gray-700 .brand .brand-logo-dark, .bg-gray-800 .brand .brand-logo-dark, .bg-gray-900 .brand .brand-logo-dark, .bg-primary .brand .brand-logo-dark {
 	display: none;
+	z-index: -1;
 }
 
 .context-dark .brand .brand-logo-light, .bg-gray-700 .brand .brand-logo-light, .bg-gray-800 .brand .brand-logo-light, .bg-gray-900 .brand .brand-logo-light, .bg-primary .brand .brand-logo-light {
