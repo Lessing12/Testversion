@@ -5052,8 +5052,8 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #104e8b;
-	color: red;
+	background-color: rgb(red, green, blue);
+	
 	
  }
  .servicesTwo:hover .services-title, .services:hover .services-title:focus, .services:hover .services-title:active {
