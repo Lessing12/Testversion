@@ -2916,7 +2916,7 @@ textarea.form-input {
 
 .form-validation {
 	position: absolute;
-	right: 18px;
+	left: 18px;
 	top: 1px;
 	z-index: 11;
 	margin-top: 2px;
