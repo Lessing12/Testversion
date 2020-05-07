@@ -4982,19 +4982,91 @@ h4 + .comment {
 	transition: .3s ease-out background-color;
 }
 
-.services .icon {
-	transition: .3s ease-out color;
-}
-
-.services > * {
-	position: relative;
-	z-index: 1;
-}
 .servicesOne > * {
 	position: relative;
 	z-index: 1;
 }
 
+
+.servicesOne:hover {
+	color: #ffffff;
+}
+
+.servicesOne:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: inherit;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+	transition: .3s ease-out all;
+	color: green;
+}
+
+.servicesTwo {
+	position: relative;
+	max-width: 270px;
+	min-height: 355px;
+	padding: 40px 25px 45px;
+	margin-left: auto;
+	height: 400px;
+	margin-right: auto;
+	text-align: center;
+	background-color: #ffffff;
+	transition: .3s ease-out background-color;
+}
+ .servicesOne:hover::before {
+	top: -10px;
+	bottom: -10px;
+	left: -5px;
+	right: -5px;
+	background-color: red;
+	
+ }
+
+.servicesTwo > * {
+	position: relative;
+	z-index: 1;
+}
+
+
+.servicesTwo:hover {
+	color: #ffffff;
+}
+
+.servicesTwo:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: inherit;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+	transition: .3s ease-out all;
+}
+.servicesTwo:hover::before {
+	top: -10px;
+	bottom: -10px;
+	left: -5px;
+	right: -5px;
+	background-color: blue;
+	color: red;
+	
+ }
+ .servicesTwo:hover .services-title, .services:hover .services-title:focus, .services:hover .services-title:active {
+	color: #ffffff;
+}
+
+.services .icon {
+	transition: .3s ease-out color;
+}
+.services > * {
+	position: relative;
+	z-index: 1;
+}
 .services:before {
 	content: '';
 	position: absolute;
@@ -5010,21 +5082,7 @@ h4 + .comment {
 .services:hover {
 	color: #ffffff;
 }
-.servicesOne:hover {
-	color: #ffffff;
-}
 
-.servicesOne:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: inherit;
-	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
-	transition: .3s ease-out all;
-}
 
  .services:hover:before {
 	top: -10px;
@@ -5035,14 +5093,7 @@ h4 + .comment {
 	
  }
 
- .servicesOne:hover::before {
-	top: -10px;
-	bottom: -10px;
-	left: -5px;
-	right: -5px;
-	background-color: red;
-	
- }
+
 
 .services:hover .icon {
 	color: #ffffff;
