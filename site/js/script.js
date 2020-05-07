@@ -490,19 +490,19 @@
       var regularConstraintsMessages = [
         {
           type: regula.Constraint.Required,
-          newMessage: "The text field is required."
+          newMessage: "Das Feld müss ausgefüllt werden."
         },
         {
           type: regula.Constraint.Email,
-          newMessage: "The email is not a valid email."
+          newMessage: "Bitte geben Sie eine Mail-Adresse an."
         },
         {
           type: regula.Constraint.Numeric,
-          newMessage: "Only numbers are required"
+          newMessage: "Bitte nur Zahlen eingeben."
         },
         {
           type: regula.Constraint.Selected,
-          newMessage: "Please choose an option."
+          newMessage: "Bitte wählen Sie eine Option aus."
         }
       ];
 
