@@ -4968,12 +4968,28 @@ h4 + .comment {
 	background-color: #ffffff;
 	transition: .3s ease-out background-color;
 }
+.servicesOne {
+	position: relative;
+	max-width: 270px;
+	min-height: 355px;
+	padding: 40px 25px 45px;
+	margin-left: auto;
+	height: 400px;
+	margin-right: auto;
+	text-align: center;
+	background-color: #ffffff;
+	transition: .3s ease-out background-color;
+}
 
 .services .icon {
 	transition: .3s ease-out color;
 }
 
 .services > * {
+	position: relative;
+	z-index: 1;
+}
+.servicesOne > * {
 	position: relative;
 	z-index: 1;
 }
@@ -4993,15 +5009,39 @@ h4 + .comment {
 .services:hover {
 	color: #ffffff;
 }
+.servicesOne:hover {
+	color: #ffffff;
+}
 
-.services:hover:before {
+.servicesOne:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: inherit;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+	transition: .3s ease-out all;
+}
+
+ .services:hover:before {
 	top: -10px;
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	/* background-color: #353744; */
-	background-color: green;
-}
+	background-color: #353744;
+	
+ }
+
+ .servicesOne:hover::before {
+	top: -10px;
+	bottom: -10px;
+	left: -5px;
+	right: -5px;
+	background-color: red;
+	
+ }
 
 .services:hover .icon {
 	color: #ffffff;
