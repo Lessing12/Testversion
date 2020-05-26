@@ -5009,7 +5009,7 @@ h4 + .comment {
 	background-color: inherit;
 	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 	transition: .3s ease-out all;
-	color: green;
+	color: white;
 }
 
  .servicesOne:hover::before {
@@ -5020,6 +5020,8 @@ h4 + .comment {
 	background-color: #c7241e;
 	
  }
+ .servicesOne:hover .services-title, .services:hover .services-title:focus, .services:hover .services-title:active {
+	color: #ffffff;}
 
 .servicesTwo {
 	position: relative;
