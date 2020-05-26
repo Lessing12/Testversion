@@ -358,6 +358,13 @@ h3 + img {
 .font-weight-sbold {
 	font-weight: 600;
 }
+.lebenspunkte{
+	color: red;
+}
+
+.mission{
+	font-weight: 600;
+}
 
 .font-weight-bold {
 	font-weight: 700;
