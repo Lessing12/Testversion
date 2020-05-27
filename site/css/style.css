@@ -1219,6 +1219,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .block-sm {
 	max-width: 520px;
+	margin-left: 0;
 }
 
 .block-lg {
