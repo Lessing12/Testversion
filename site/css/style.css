@@ -5687,7 +5687,8 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar {
-	display: none;
+	display: flex;
+	justify-content: space-between;
 	background: #ffffff;
 }
 
@@ -5825,7 +5826,8 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-brand a {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 }
 
 .rd-navbar-search {
@@ -6254,6 +6256,11 @@ html.tablet .ui-to-top {
 	max-height: 58px;
 	width: auto;
 	height: auto;
+}
+.one-line{
+	display: flex;
+	justify-content: space-between;
+
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
