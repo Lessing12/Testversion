@@ -5018,7 +5018,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #c7241e;
+	background-color: rgb(156, 16, 6);
 	
  }
  .servicesOne:hover .services-title, .services:hover .services-title:focus, .services:hover .services-title:active {
@@ -5062,7 +5062,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #104e8b;
+	background-color: rgb(0, 105, 180);
 	
 	
  }
@@ -5072,7 +5072,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: green;
+	background-color: rgb(0, 150, 64);
 	
 	
  }
@@ -5117,7 +5117,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #104e8b;
+	background-color: rgb(0, 105, 180);
 	
 	
  }
@@ -5127,7 +5127,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: violet;
+	background-color: rgb(175, 96, 162);
 	
 	
  }
@@ -5173,7 +5173,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #104e8b;
+	background-color:  rgb(0, 105, 180);
 	
 	
  }
@@ -5183,7 +5183,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: green;
+	background-color: rgb(0, 150, 64);
 	
 	
  }
@@ -5230,7 +5230,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #104e8b;
+	background-color: rgb(0, 105, 180);
 	
 	
  }
@@ -5240,7 +5240,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: orange;
+	background-color: rgb(243, 146, 0);
 	
 	
  }
@@ -5285,7 +5285,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: #104e8b;
+	background-color:rgb(0, 105, 180);
 	
 	
  }
@@ -5295,7 +5295,7 @@ h4 + .comment {
 	bottom: -10px;
 	left: -5px;
 	right: -5px;
-	background-color: yellow;
+	background-color: rgb(179, 164, 0);
 	
 	
  }
