@@ -1167,6 +1167,7 @@ p [style*='max-width'] {
 
 .brand .brand-logo-dark {
 	display: block;
+	position: relative;
 }
 
 /** @section Links */
@@ -8729,6 +8730,8 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 	/* fix for flashing background */
 	-webkit-transform: translate3d(0px, 0px, 0px);
 	transform: translate3d(0px, 0px, 0px);
+	
+	
 }
 
 .owl-carousel .owl-wrapper,
@@ -8738,6 +8741,7 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 }
 
 .owl-carousel .owl-item {
+	margin: auto;
 	position: relative;
 	min-height: 1px;
 	float: left;
